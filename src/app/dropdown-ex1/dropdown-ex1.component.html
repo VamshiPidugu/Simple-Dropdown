@@ -9,7 +9,7 @@
   </button>
   <div class="dropdown-content" [ngClass]="{ show: dropdownOpen }">
     <ul>
-      <li *ngFor="let option of options" (click)="selectColor(option.value)">
+      <li *ngFor="let option of options" (click)="selectColor(option.value)" style="text-align:center">
         {{ option.label }}
         <hr />
       </li>
